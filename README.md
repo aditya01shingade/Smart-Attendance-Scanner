@@ -1,2 +1,17 @@
-# Smart-Attendance-Scanner
-Smart Attendance Scanner - system using Flutter and Excel. Teachers select a session (Department, Semester, Subject), then students scan their QR codes to mark attendance. The app records each student's presence with date and time into an Excel file. It prevents duplicate scans, auto-marks absent students at session end, and supports monthly tracking. Final Excel sheets show detailed attendance with Present, Absent counts and percentage per student. 
+# smart_attendance_scanner
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+"# Smart-Attendance-Scanner-" 

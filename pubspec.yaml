@@ -10,11 +10,11 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  mobile_scanner: ^3.5.2         # ✅ QR scanner
-  excel: ^2.1.0                  # ✅ Excel export
-  intl: ^0.19.0                  # ✅ Date/time formatting
-  path_provider: ^2.1.2          # ✅ File system access
-  permission_handler: ^11.3.1    # ✅ Storage permission
+  mobile_scanner: ^3.5.2         # QR scanner
+  excel: ^2.1.0                  # Excel export
+  intl: ^0.19.0                  # Date/time formatting
+  path_provider: ^2.1.2          # File system access
+  permission_handler: ^11.3.1    # Storage permission
 
 dev_dependencies:
   flutter_test:
@@ -24,6 +24,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/dglogo.png          # ✅ Add your logo to this path
+    - assets/dglogo.png          # Add your logo to this path
     - assets/IT.xlsx
     - assets/CS.xlsx 

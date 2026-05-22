@@ -11,12 +11,12 @@ os.makedirs(output_dir, exist_ok=True)
 try:
     df = pd.read_excel(excel_file)
 except Exception as e:
-    print(f"❌ Error reading Excel: {e}")
+    print(f" Error reading Excel: {e}")
     exit()
 
 required_cols = ['PNR', 'RollNo', 'FirstName', 'LastName', 'Division', 'Department', 'Semester']
 if not all(col in df.columns for col in required_cols):
-    print(f"❌ Excel must include columns: {required_cols}")
+    print(f" Excel must include columns: {required_cols}")
     exit()
 
 # Group and generate QR codes
@@ -33,6 +33,6 @@ for _, row in df.iterrows():
     qr_path = os.path.join(subdir, filename)
     qr.save(qr_path)
 
-    print(f"✅ Saved: {qr_path}")
+    print(f" Saved: {qr_path}")
 
-print("\n✅ All QR codes generated in:", os.path.abspath(output_dir))
+print("\n All QR codes generated in:", os.path.abspath(output_dir))
